@@ -1,0 +1,69 @@
+nav {
+  margin-bottom: 80px;
+}
+
+header {
+  margin-bottom: 80px;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+.slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+
+#price {
+  font-size: 20px;
+  margin: 20px 0px;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 3px 25px;
+}
+
+#plus,
+#min {
+  margin: 10px -5px;
+  padding: 3px 10px;
+  font-size: 20px;
+}
